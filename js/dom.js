@@ -165,7 +165,7 @@ document.getElementById('third-donation')
         hideElement('history-section')
     })
 
-
+hideElement()
 
 
 
