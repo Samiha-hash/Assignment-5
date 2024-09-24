@@ -1,18 +1,3 @@
-document.getElementById('index-button').addEventListener('click', function(){
-    window.location.href = 'index.html'
-})
-
-
-
-
-function hideElement(id){
-    document.getElementById('history-section').classList.add('hidden')
-    document.getElementById(id).classList.remove('hidden')
-
-    document.getElementById('donate-section').classList.add('hidden')
-    document.getElementById(id).classList.remove('hidden')
-}
-
 
 
 // history
@@ -67,3 +52,14 @@ function createHistory3(Amount) {
         historySection.appendChild(div)
 
 }
+
+
+
+
+
+
+
+document.getElementById('index-button').addEventListener('click', function(){
+    window.location.href = './index.html'
+  
+})

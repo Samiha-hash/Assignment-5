@@ -1,3 +1,16 @@
+
+
+
+// blog connected to DOM
+
+document.getElementById('blog-button').addEventListener('click', function () {
+    window.location.href = './blog.html'
+    
+})
+
+
+
+
 // function:
 
 function forAllInput(id) {
@@ -145,6 +158,14 @@ document.getElementById('third-donation')
     })
 
 
+    function hideElement(id){
+        document.getElementById('history-section').classList.add('hidden')
+        document.getElementById(id).classList.remove('hidden')
+    
+        document.getElementById('donate-section').classList.add('hidden')
+        document.getElementById(id).classList.remove('hidden')
+    }
+    
 
     document.getElementById('history').addEventListener('click', function(){
         document.getElementById('donate').classList.remove('bg-lime-400')
@@ -171,11 +192,6 @@ hideElement()
 
 
 
-// blog connected to DOM
-
-document.getElementById('blog-button').addEventListener('click', function () {
-    window.location.href = 'blog.html'
-})
 
 
 
