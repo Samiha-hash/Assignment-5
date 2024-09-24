@@ -168,7 +168,7 @@ document.getElementById('third-donation')
     
 
     document.getElementById('history').addEventListener('click', function(){
-        document.getElementById('donate').classList.remove('bg-lime-400')
+        document.getElementById('donate').classList.remove('bg-[#B4F461]')
         document.getElementById('history').classList.add('bg-[#B4F461]')
         document.getElementById('footer').classList.add('hidden')
     })
